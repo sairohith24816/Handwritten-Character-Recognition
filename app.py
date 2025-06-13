@@ -1,4 +1,3 @@
-
 import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
@@ -63,6 +62,7 @@ with right_col:
     
     if clear_button:
         st.session_state.processed_image = None
+        st.session_state.prediction_result = None  # Clear prediction results
         st.session_state.canvas_key += 1  # Force canvas to reset by changing key
         st.rerun()
     
@@ -240,3 +240,8 @@ with right_col:
             st.write(f"Max pixel value: {img_arr.max()}")
             st.write(f"Mean pixel value: {img_arr.mean():.2f}")
             st.write("(MNIST format: black background ~0, white digits ~255)")
+
+
+# reduce print statements while model training
+# the results must be erased after clicking clear in canavas
+# and the canvas must be reset
