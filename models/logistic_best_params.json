@@ -1,0 +1,15 @@
+{
+    "model_name": "Logistic Regression",
+    "best_params": {
+        "C": 0.1,
+        "max_iter": 1000,
+        "penalty": "l1",
+        "solver": "saga"
+    },
+    "best_cv_score": 0.9090666666666667,
+    "train_accuracy": 0.9194,
+    "test_accuracy": 0.9268,
+    "training_time": 9537.39354801178,
+    "augmentation_factor": 2,
+    "train_samples": 120000
+}

@@ -8,7 +8,7 @@
     "best_cv_score": 0.7850416666666666,
     "train_accuracy": 0.7872666666666667,
     "test_accuracy": 0.834,
-    "training_time": 0.8969113826751709,
+    "training_time": 0.6142339706420898,
     "augmentation_factor": 3,
     "train_samples": 120000,
     "uses_scaler": false

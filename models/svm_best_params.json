@@ -1,0 +1,16 @@
+{
+    "model_name": "SVM",
+    "best_params": {
+        "C": 0.2,
+        "coef0": 1.0,
+        "degree": 3,
+        "gamma": 0.01,
+        "kernel": "poly"
+    },
+    "best_cv_score": 0.9874583333333332,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9838,
+    "training_time": 4525.0645315647125,
+    "augmentation_factor": 2,
+    "train_samples": 120000
+}
